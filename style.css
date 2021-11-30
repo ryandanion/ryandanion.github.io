@@ -1,0 +1,30 @@
+body{
+    font-family:'Fira Code', 'Courier New', Courier, monospace;
+    align-content:center;
+    background: black;
+    color: white;
+    max-width:600px;
+    margin: auto;
+    padding: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: gray;
+}
+
+.card{
+    width: auto;
+    border:dashed white 3px;
+    padding: 0.5em;
+    margin: 1em 0em 1em 0em;
+}
+
+.card-table{
+    display: grid;
+}
