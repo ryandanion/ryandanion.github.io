@@ -8,21 +8,18 @@ body{
     padding: 1em;
 }
 
-a {
+a, a:visited {
     color: white;
     text-decoration: none;
 
 }
 
-a:visited{
-    color: gray;
-}
 
 .card{
     width: auto;
-    border:dashed white 3px;
+    border:dashed darkgray 3px;
     padding: 0.5em;
-    margin: 1em 0em 1em 0em;
+    margin: 2em 0em 2em 0em;
 }
 
 .card-table{
