@@ -30,7 +30,7 @@ mark{
     width: auto;
     border:solid black 3px;
     padding: 0.5em;
-    margin: 2em 0em 2em 0em;
+    margin: 2em;
     box-shadow: black 5px 5px;
     transition: all 400ms;
     font: bold;
