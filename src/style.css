@@ -1,9 +1,9 @@
 body{
-    font-family:'Fira Code', 'Courier New', Courier, monospace;
+    font-family: 'Outfit', sans-serif;
     align-content:center;
-    max-width:600px;
+    max-width:700px;
     margin: auto;
-    padding: 1em;
+    padding: 2em;
 }
 
 h1{
@@ -11,8 +11,23 @@ h1{
     font-weight:bold;
 }
 
+.flex{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
+
+.flex-low{
+    display: flex;
+    flex-direction:column;
+}
+
+.description{
+    margin: 1em;
+}
+
 a, a:visited {
-    color: black;
+    color:#004E89;
     text-decoration: none;
 }
 
@@ -22,8 +37,12 @@ mark{
     box-shadow: black 2px 2px;
 }
 
+img{
+    border-radius: 50%;
+}
+
 .card:hover{
-    background:yellow;
+    background:#FF6B35;
 }
 
 .card{
@@ -42,8 +61,8 @@ mark{
 }
 
 #ryan{
-    padding:3px;
-    border: solid black 1px;
-    box-shadow: black 3px 3px;
-    background: yellow;
+    padding:2px;
+    border: solid black 0.5px;
+    box-shadow: black 1px 1px;
+    background: #FF6B35;
 }
